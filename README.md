@@ -14,10 +14,10 @@ sudo vi /etc/sysctl.conf
 
 #Disable firewall and selinux
 
-sudo /etc/init.d/iptables stop
-sudo chkconfig iptables off
-sudo chkconfig ip6tables off
-sudo nano /etc/selinux/config
+* sudo /etc/init.d/iptables stop
+* sudo chkconfig iptables off
+* sudo chkconfig ip6tables off
+* sudo nano /etc/selinux/config
 --> change "enforcing" to "permissive" or "disabled"
 
 #Disable transparent hugepage support
