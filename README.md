@@ -252,7 +252,7 @@ sudo -u hdfs hadoop jar /usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar 
 
 # Enable Kerberos
 
-http://blog.puneethabm.in/configure-hadoop-security-with-cloudera-manager-using-kerberos/
+https://blog.puneethabm.com/configure-hadoop-security-with-cloudera-manager-using-kerberos/
 
 # Enable High Availability
 The following manual steps must be performed after completing this wizard:
